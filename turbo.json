@@ -11,10 +11,6 @@
       "inputs": ["src/**", "tsconfig.json"],
       "outputs": ["dist/**"]
     },
-    "app1#dev": {
-      "dependsOn": [],
-      "persistent": true
-    },
     "nextjs#dev": {
       "dependsOn": [],
       "persistent": true

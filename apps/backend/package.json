@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "build": "nest build -b swc",
-    "dev": "nest start --watch"
+    "dev": "nest build -b swc && nest start"
   },
   "dependencies": {
     "@nestjs/common": "10.3.9",
