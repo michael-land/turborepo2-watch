@@ -1,1 +1,1 @@
-export const package1Name = 'foo3456';
+export const package1Name = "testingg";

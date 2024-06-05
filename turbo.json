@@ -14,6 +14,10 @@
     "app1#dev": {
       "dependsOn": [],
       "persistent": true
+    },
+    "nextjs#dev": {
+      "dependsOn": [],
+      "persistent": true
     }
   },
   "globalDependencies": ["tsconfig.json", "pnpm-lock.yaml"],
