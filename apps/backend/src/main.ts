@@ -1,3 +1,11 @@
-import { package1Name } from "@monorepo/package1";
+import { ValidationPipe } from '@nestjs/common';
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module.js';
 
-console.log({ package1Name });
+const app = await NestFactory.create(AppModule, {
+  bufferLogs: true,
+});
+
+await app.listen(5001);
+
+console.log(`🚀 app ready`);
