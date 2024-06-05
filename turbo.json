@@ -1,0 +1,21 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["src/**", "tsconfig.json"],
+      "outputs": ["dist/**"]
+    },
+    "dev": {
+      "dependsOn": ["^dev"],
+      "inputs": ["src/**", "tsconfig.json"],
+      "outputs": ["dist/**"]
+    },
+    "app1#dev": {
+      "dependsOn": [],
+      "persistent": true
+    }
+  },
+  "globalDependencies": ["tsconfig.json", "pnpm-lock.yaml"],
+  "globalEnv": ["NODE_ENV"]
+}

@@ -1,0 +1,10 @@
+{
+  "extends": ["@tsconfig/node20", "@tsconfig/strictest"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src"]
+}

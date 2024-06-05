@@ -1,0 +1,8 @@
+packages:
+  - 'apps/**/*'
+  - 'serverless'
+  - 'packages/**/*'
+  - 'integrations/**/*'
+  - '!**/.sst/**'
+  - '!**/.next/**'
+  - '!**/dist/**'
